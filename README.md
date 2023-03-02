@@ -1,1 +1,1 @@
-HELLO
+Full Tasks Strings and pointers

@@ -1,13 +1,14 @@
- #include "main.h"
+#include "main.h"
 
 /**
  * _strchr - Locates a character in a string.
  * @s: The string to be searched.
  * @c: The character to be located.
- * done by temesgen abdissa
+ *
  * Return: If c is found - a pointer to the first occurence.
- * If c is not found - NULL.
+ *         If c is not found - NULL.
  */
+
 char *_strchr(char *s, char c)
 {
 	int index;
@@ -17,7 +18,6 @@ char *_strchr(char *s, char c)
 		if (s[index] == c)
 			return (s + index);
 	}
-
 
 	return ('\0');
 }
